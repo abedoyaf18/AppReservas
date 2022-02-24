@@ -1,9 +1,13 @@
 package com.uco.myproject.dominio.modelo;
 
+import java.util.Date;
+
 public class Persona {
 
     private final String nombre;
     private final String apellido;
+    private Date fechaNacimiento;
+    private String cedula;
 
     public static Persona of(String nombre, String apellido) {
 
